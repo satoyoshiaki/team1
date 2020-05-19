@@ -37,6 +37,7 @@
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
+              <p><%= link_to 'アジェンダの削除', agenda_path(agenda), method: :delete　%></p>
             <ul class="nav nav-treeview" style="display: block;">
               <% agenda.articles.each do |article| %>
                 <li class="nav-item">
