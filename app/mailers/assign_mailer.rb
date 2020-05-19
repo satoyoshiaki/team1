@@ -7,3 +7,5 @@ class AssignMailer < ApplicationMailer
     mail to: @email, subject: I18n.t('views.messages.complete_registration')
   end
 end
+
+
